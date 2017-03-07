@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Registration form</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="clouds">
+	<div class="cloud x1"></div>
+	<!-- Time for multiple clouds to dance around -->
+	<div class="cloud x2"></div>
+	<div class="cloud x3"></div>
+	<div class="cloud x4"></div>
+	<div class="cloud x5"></div>
+</div>
+
+ <div class="container">
+
+
+      <div id="login">
+
+        <form method="post">
+
+          <fieldset class="clearfix">
+
+            <p><span class="fontawesome-user"></span><input type="text" value="Firstname" onBlur="if(this.value == '') this.value = 'Firstname'" onFocus="if(this.value == 'Firstname') this.value = ''" required></p>
+            <p><span class="fontawesome-user"></span><input type="text" value="LastName" onBlur="if(this.value == '') this.value = 'Lastname'" onFocus="if(this.value == 'Lastname') this.value = ''" required></p>
+            <p><span class="fontawesome-envelope"></span><input type="text" value="Email" onBlur="if(this.value == '') this.value = 'Email'" onFocus="if(this.value == 'Email') this.value = ''" required></p>
+            <p><span class="fontawesome-book"></span><input type="text" value="Phone" onBlur="if(this.value == '') this.value = 'Phone'" onFocus="if(this.value == 'Phone') this.value = ''" required></p> 
+            <p><span class="fontawesome-lock"></span><input type="password"  value="Password" onBlur="if(this.value == '') this.value = 'Password'" onFocus="if(this.value == 'Password') this.value = ''" required></p>
+            <p><input type="submit" value="Sign Up"></p>
+
+          </fieldset>
+
+        </form>
+
+        <p>Not a member? <a href="index.html" class="blue">Sign In</a><span class="fontawesome-arrow-right"></span></p>
+
+      </div> <!-- end login -->
+
+    </div>
+    
+  
+  
+</body>
+</html>
