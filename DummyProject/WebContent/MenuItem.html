@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+ function func()
+ {
+	 alert("It Works");
+ }
+</script>
+</head>
+<body>
+
+<div style="background:yellow;border:1px solid #cccccc;padding: 10px;" contextmenu="mymenu">
+<p>Right-click inside this box to see the context menu!</p>
+
+<menu type="list" id="mymenu">
+  <menuitem label="Refresh" onclick="func()" icon="ico_reload.png"></menuitem>
+  <menu label="Share on...">
+    <menuitem label="Twitter" icon="ico_twitter.png" onclick="func()"></menuitem>
+    <menuitem label="Facebook" icon="ico_facebook.png" onclick="func()"></menuitem>
+  </menu>
+  <menuitem label="Email This Page" onclick="func()"></menuitem>
+</menu>
+
+</div>
+
+<p>This example currently only works in Firefox!</p>
+
+
+</body>
+</html>
